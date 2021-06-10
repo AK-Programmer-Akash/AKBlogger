@@ -1,0 +1,49 @@
+.main-blog{
+
+}
+.util{
+    font-family: var(--font2);
+    font-size: 20px;
+    margin: 23px 0;
+}
+.mar{
+    margin: 23px 0;
+}
+.main-blog h1{
+    text-align: center;
+}
+.main-blog p{
+    font-size: 23px;
+}
+.more-post{
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    flex-direction: row;
+    display: flex;
+}
+.ds{
+    font-family: var(--font2);
+    margin: 23px 0;
+}
+.ds li{
+    font-size: 20px;
+    /* text-align: center; */
+    font-family: var(--font2);
+}
+.dss{
+    font-family: var(--font2);
+    margin: 23px 0;
+}
+
+.dss li{
+    font-size: 20px;
+    font-family: var(--font2);
+}
+.rm .p {
+    font-weight: bold;
+}
+.rm h1{
+    text-align: center;
+}

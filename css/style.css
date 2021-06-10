@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* background-color: aqua; */
+    /* background-color: #7ac4c4; */
+    /* height: 10vh; */
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header nav ul li{
+    list-style: none;
+
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header nav ul{
+    display: flex;
+    align-items: center;
+}
+.ak{
+    font-size: 28px;
+    /* border: 2px solid black; */
+    border-radius: 23px;
+    margin: 0 23px;
+}
+.header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    
+}
+.header nav ul li{
+    padding: 0 23px;
+}
+/* .container{
+    
+} */
+.main-top{
+    height: 100%;
+    display: flex;
+    /* background-color: #f4f3aa; */
+}
+.top-left{
+    /* width: 50%; */
+    /* background-color: red; */
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 23px; 
+    padding: 23px;   
+}
+.top-left p{
+    padding-top: 13px;
+}
+.top-right{
+    /* background-color: purple; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-right img{
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+.main-bottom{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.main-bottom h2{
+    display: flex;
+    align-items: center;
+}
+.main-bottom h2{
+    padding: 23px;
+    font-size: 28px;
+}
+.home-artical{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    padding: 15px;
+    /* flex-direction: column; */
+}
+.artical-content{
+    padding-left: 25px;
+    /* text-align: center;
+    display: flex;
+    flex-direction: column; */
+}
+.home-artical-img img{
+    width: 250px;
+}
+.artical-content a h3{
+    text-decoration: none;
+    font-family: var(--font1);
+}
+.artical-content a{
+    text-decoration: none;
+    color: black;
+}
